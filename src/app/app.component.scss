@@ -1,0 +1,15 @@
+.formDemo{
+    padding: 200px;
+}
+
+.inputEmail.ng-invalid{
+    border-left: 5px solid red;
+}
+
+.inputEmail.ng-valid{
+    border-left: 5px solid green;
+}
+
+.error{
+    color: red
+}

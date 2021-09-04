@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'demoForms';
+
+  userData = {
+    email: "test@test.com",
+    password: "1123"
+  }
+
+
+  onSubmit(data: any){
+    console.log(data)
+  }
 }
